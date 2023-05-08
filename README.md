@@ -19,7 +19,6 @@ Guidelines for developing applications with SwiftUI
 ## Constraints
 
 - View initialization and body execution should be as lightweight as possible. Do not burden them with heavy computations.
-- Do not use vertical padding in vertical stacks and horizontal padding in horizontal stacks. Instead, use `Spacer()` with a fixed height or width for spacing.
 - Do not extend a View beyond 100 lines. If this happens, extract components into separate Views.
 - Extract separate Views into computed properties or make methods if they need to take parameters.
 - Do not extend the body, computed properties, or make methods of a View beyond 50 lines.
@@ -27,12 +26,12 @@ Guidelines for developing applications with SwiftUI
 - Extract repeated UI in different Views into a separate View to avoid code duplication.
 - Extract repeated UI within a single View into computed properties or make methods.
 - Always write modifiers on a new line. Recommended:
-Рекомендуется:
+Recommended:
 ```swift
 MyView()
     .frame(height: 20)
 ```
-Не рекомендуется:
+Not recommended:
 ```swift
 MyView().frame(height: 20)
 ```
