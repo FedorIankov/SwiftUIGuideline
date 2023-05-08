@@ -81,8 +81,6 @@ Wrapper sequence:
 - @State
 - var без враппера
 
-## Ссылки
-
 ## References
 
 [Apple Tutorial](https://developer.apple.com/tutorials/swiftui/)
