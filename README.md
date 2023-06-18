@@ -111,8 +111,12 @@ Wrapper sequence:
 ## References
 
 [Apple Tutorial](https://developer.apple.com/tutorials/swiftui/)
+
 [First acquaintance with components and transition from UIKit](https://github.com/SimpleBoilerplates/SwiftUI-Cheat-Sheet)
+
 [All basic things SwiftUI](https://fuckingswiftui.com)
+
 [100 days of SwiftUI](https://www.hackingwithswift.com/100/swiftui)
+
 [Descriptions of Property Wrappers in SwiftUI](https://disk.yandex.ru/i/5C8sPIZwXVOC7g)
 
