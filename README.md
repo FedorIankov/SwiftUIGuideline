@@ -49,17 +49,41 @@ MyView().frame(height: 20)
 
 ## Code Organization
 
-Follow this sequence:
-- public let
-- public var
-- internal let
-- internal var
-- private let
-- private var
-- init
-- public func
-- internal func
-- private func
+Follow this sequence inside View:
+
+```swift
+struct MyView: some View {
+    enum { }
+    struct { }
+ 
+    private enum { }
+    private struct { }
+
+    let
+    
+    @Environment var 
+    @ObservedObject var 
+    @StateObject var 
+    @Binding var 
+    @State var 
+    var
+    
+    var body: some View { }
+    
+    private let 
+
+    @Environment private var 
+    @ObservedObject private var 
+    @StateObject private var 
+    @Binding private var 
+    @State private var 
+    private var 
+    
+    init() { }
+    
+    private func () { }
+}
+```
 
 Add an empty line between sections. For example:
 ```swift
