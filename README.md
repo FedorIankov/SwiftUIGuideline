@@ -61,7 +61,8 @@ struct MyView: some View {
 
     let
     
-    @Environment var 
+    @Environment var
+    @EnvironmentObject var
     @ObservedObject var 
     @StateObject var 
     @Binding var 
@@ -72,7 +73,8 @@ struct MyView: some View {
     
     private let 
 
-    @Environment private var 
+    @Environment private var
+    @EnvironmentObject private var
     @ObservedObject private var 
     @StateObject private var 
     @Binding private var 
