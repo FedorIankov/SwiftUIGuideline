@@ -82,7 +82,8 @@ struct MyView: some View {
     private var 
     
     init() { }
-    
+
+    func() { }
     private func () { }
 }
 ```
