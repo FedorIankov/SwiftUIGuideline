@@ -96,13 +96,15 @@ let title: String
 ```
 
 Wrapper sequence:
-- @ObservedObject
-- @Binding
-- @Environment
-- @EnvironmentObject
-- @StateObject
-- @State
-- var без враппера
+
+```swift
+    @Environment
+    @EnvironmentObject
+    @ObservedObject 
+    @StateObject 
+    @Binding 
+    @State
+```
 
 ## References
 
